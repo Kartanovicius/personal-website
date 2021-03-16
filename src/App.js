@@ -3,14 +3,20 @@ import './App.css';
 import './components/navbar/Navbar';
 import NavBar from "./components/navbar/Navbar";
 import Main from "./components/main/main";
+import Portfolio from "./components/portfolio/portfolio";
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <NavBar/>
-                <Main/>
-            </header>
+            <section>
+                <header className="App-header">
+                    <NavBar/>
+                    <Main/>
+                </header>
+            </section>
+            <section>
+                <Portfolio/>
+            </section>
         </div>
     );
 }

@@ -1,12 +1,20 @@
 nav {
+    position: sticky;
+    left: 0;
     background: #FFFFFF;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0 20px 20px 0;
     margin: 20px 0 20px 0;
     z-index: 1;
 }
 
-nav h1 {
-    position: relative;
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu h1 {
     top: 10vh;
     left: 0;
     white-space: nowrap;

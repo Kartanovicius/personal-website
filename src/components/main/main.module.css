@@ -13,7 +13,9 @@
 
 .titleText h2 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 42px;
+    font-size: 3vw;
+    max-font-size: 50px;
+    min-font-size: 40px;
     font-weight: 400;
     margin: 0 0 -10px 0;
 }

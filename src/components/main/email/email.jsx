@@ -4,7 +4,7 @@ import style from './email.module.css'
 const Email = () => {
     return (
         <div className={style.button}>
-            <a href="mailto:someone@yoursite.com?subject=Mail from Our Site">Write me a email</a>
+            <a href="mailto:donatas.ka@gmail.com?subject=Mail from Client">Write me a email</a>
         </div>
     )
 }
