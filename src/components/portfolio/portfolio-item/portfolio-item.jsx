@@ -5,7 +5,7 @@ const Item = (props) => {
     return (
         <div className={style.item}>
             <img
-                src="https://image.shutterstock.com/image-photo/motivational-words-llc-on-keyboard-600w-1910672659.jpg" alt="porfolio image"></img>
+                src={props.src} alt={props.alt}></img>
             <div className={style.content}>
                 <h3>{props.title}</h3>
                 <p>{props.text}</p>

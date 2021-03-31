@@ -8,7 +8,7 @@ import Portfolio from "./components/portfolio/portfolio";
 function App() {
     return (
         <div className="App">
-            <section>
+            <section className="header">
                 <header className="App-header">
                     <NavBar/>
                     <Main/>

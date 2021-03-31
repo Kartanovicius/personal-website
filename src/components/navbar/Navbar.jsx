@@ -21,9 +21,9 @@ const NavBar = () => {
                         <p className={style.item}>Timeline</p>
                         </div>
                         <div className={style.svgConteiner}>
-                            <img className={style.svg} src={facebook}/>
-                            <img className={style.svg} src={linkedin}/>
-                            <img className={style.svg} src={instagram}/>
+                            <img className={style.svg} src={facebook} alt="facebook svg"/>
+                            <img className={style.svg} src={linkedin} alt="linkedin svg"/>
+                            <img className={style.svg} src={instagram} alt="instagram svg"/>
                         </div>
                         <p className={style.footer}>Made with ❤️ and 🍺 by Donatas Kartanovičius</p>
                     </div>
